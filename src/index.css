@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  max-width: 762px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+  margin-top: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.chip button {
+  margin-left: 8px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #ff0000;
+}
+
+input {
+  min-width: 400px;
+  padding: 10px;
+  margin-bottom: 12px;
+  outline: none;
+  border: none;
+}
+
+.suggestion-container {
+  position: absolute;
+  width: 720px;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.search-user {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  align-items:end;
+}
+
+.search-user .email {
+  font-size: 12px;
+  padding-bottom: 2px;
+}
+
+.search-user:hover {
+  background-color: #e0e0e0;
+}
